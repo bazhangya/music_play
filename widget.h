@@ -36,9 +36,6 @@ public:
     QString strPlay ;
 public slots:
     void serialReadreadSlots();
-    void serial1ReadreadSlots();
-    void serial2ReadreadSlots();
-    void serial3ReadreadSlots();
 private slots:
     void on_pushButton_change_clicked();
 };
